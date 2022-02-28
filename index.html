@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>webagency</title>
+    <script src="https://kit.fontawesome.com/eec42886ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="hea1">
+            <img src="./images/logo.png" alt="logo" class="imag1">
+
+            <nav class="nav1">
+                <ul>
+                    <li class="li1"><a href="#">Accueil</a></li>
+                    <li class="li1"><a href="#Services">Services</a></li>
+                    <li class="li1"><a href="#Projets">Portfolio</a></li>
+                    <li class="li1"><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="slide">
+            <div class="imagsli">
+                <img src="./images/slider/bg1.jpg" alt="bg1" class="msl">
+                <img src="./images/slider/bg2.jpg" alt="bg2" class="msl">
+
+                
+            </div>
+            <section class="hdsec">
+                <h1 class="hd"> <samp>WEBAGENCY</samp>:L'AGENCE DE TOUS <br>VOS PROJETS!</h1>
+    
+                <P class="pd">Vous avez un projet web? la Webagency vous aide à le realiser!</P>
+                <p> <samp class="samp1">Plus d'infos</samp></p>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="h1" id="Services">NOS SERVICES</h1>
+        <P class="p1">Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do elusmod tempor incididunt ut <br> et dolore magna aliqua.Ut enim ad minim veniam</P>
+
+        <section class="sec1">
+            <div>
+                <img src="./images/main-feature.png" alt="main-feature">
+            </div>
+
+            <div>
+                <div class="icones">
+                    <div>
+                        <img src="./images/Capture.JPG" alt="chart-line" class="imco">
+                    </div>
+                    <div>
+                        <h1>UX design</h1>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do elusmod <br> tempor incididunt ut labore et dolore magna incididunt ut labore aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="icones">
+                    <div>
+                        <img src="./images/Capture2.JPG" alt="image" class="imco">
+                    </div>
+                    <div>
+                        <h1>UI design</h1>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do elusmod <br> tempor incididunt ut labore et dolore magna incididunt ut labore aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="icones">
+                    <div>
+                        <img src="./images/Capture3.JPG" alt="image" class="imco">
+                    </div>
+                    <div>
+                        <h1>SEO</h1>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do elusmod <br> tempor incididunt ut labore et dolore magna incididunt ut labore aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <p class="p2">Nos services</p>
+    
+
+        <section class="sec2">
+            <div class="div1">
+                <h1 id="Projets">NOS PROJOTS</h1>
+                <P>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do elusmod tempor incididunt ut <br> et dolore magna aliqua.Ut enim ad minim veniam</P>
+            </div>
+
+            <div class="div2">
+                <p class="p0"> <samp class="psam">All Works</samp></p>
+                <p class="p0">Creative</p>
+                <p class="p0">Corporate</p>
+                <p class="p0">Portfolio</p> 
+            </div>
+
+            <div class="divpo">
+                <img src="./images/portfolio/01.jpg" alt="01" class="imapo">
+                <img src="./images/portfolio/02.jpg" alt="02" class="imapo">
+                <img src="./images/portfolio/03.jpg" alt="03" class="imapo">
+                <img src="./images/portfolio/04.jpg" alt="04" class="imapo">
+            </div>
+            <div class="divpo1">
+                <img src="./images/portfolio/05.jpg" alt="05" class="imapo">
+                <img src="./images/portfolio/06.jpg" alt="06" class="imapo">
+                <img src="./images/portfolio/07.jpg" alt="07" class="imapo">
+                <img src="./images/portfolio/08.jpg" alt="08" class="imapo">
+            </div>
+            
+        </section>
+        <p class="ppro">Nos progets</p>
+    </main>
+
+    <footer>
+        <div class="contactez-nous">
+            <h1 id="Contact">Contactez-nous</h1>
+            <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+            <form action="/page-traitement-donnees" method="post">
+            <div>
+            
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            </div>
+            <div>
+          <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+            <div>
+            <label for="sujet">Quel est le sujet de votre message ?</label>
+            <select name="sujet" id="sujet" required>
+            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+            <option value="probleme-compte">Problème avec mon compte</option>
+            <option value="question-produit">Question à propos d’un produit</option>
+            <option value="suivi-commande">Suivi de ma commande</option>
+            <option value="autre">Autre...</option>
+            </select>
+            </div>
+            <div>
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+            </div>
+            <div>
+            <button type="submit">Envoyer mon message</button>
+            </div>
+            </form>
+            </div>
+    </footer>
+    
+</body>
+</html>
